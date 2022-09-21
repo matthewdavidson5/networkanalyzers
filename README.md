@@ -5,5 +5,5 @@ but made into a more compact CLI
 
 ## USAGE
 
-Load a script via standard python3 compiler in the shell. Option .pcap capture files may be supplied,
+Load a script via standard python3 compiler in the shell. Optional .pcap capture files may be supplied,
 otherwise a capture will be performed at runtime.

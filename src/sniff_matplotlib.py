@@ -5,7 +5,7 @@ from matplotlib import pyplot as plt
 #A program for determining top talkers to the host above threshold packet count
 #Renders a matplotlib distribution of source ips and the their respective packet counts
 
-#capture = pyshark.LiveCapture(interface='en0')
+capture = pyshark.LiveCapture(interface='en0')
 src_ips_dist = []
 unique_ips = []
 threshold_count = 5
